@@ -1,0 +1,29 @@
+/*Global configurations */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+*,
+button,
+input {
+    font-weight: normal;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+/*Pallete*/
+:root {    
+    --color-primary: #e63946;
+    --bg-color: #f2f2f2;
+    --text-color: #1d3557;
+    --color-input-border: #e5e5e5;
+    --color-whatsapp: #27ae60;
+    --avatar-border: #1d3557;
+    --input-border: #e63946;
+}
