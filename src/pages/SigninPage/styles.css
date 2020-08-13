@@ -1,0 +1,90 @@
+#signin-page{
+    height: 100vh;
+	width: 100vw;
+    display: flex;
+}
+
+#signin-page .left-side{
+    background: var(--color-primary);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 70px;
+    flex-direction: column;
+}
+
+#signin-page .left-side .back-page{
+    display: flex;
+    align-items: center;
+}
+
+#signin-page .left-side .back-page img{
+    width: 33px;
+    height: 33px;
+}
+
+#signin-page .left-side .back-page span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#signin-page .left-side .text{
+    display: grid;
+    align-items: center;
+}
+
+#signin-page .left-side .text #style-1{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+#signin-page .left-side .text #style-2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+#signin-page .right-side{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 85px;
+}
+
+
+#signin-page .right-side .input-container{
+    display: grid;
+    align-items: center;
+    justify-content: flex-start
+}
+
+#signin-page .right-side .input-container button{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: var(--color-primary);
+    border-radius: 8px;
+    border: none;
+    width: 370px;
+    height: 55px;
+}
+
+#signin-page .right-side .input-container input{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 0.5rem 0;
+    width: 370px;
+    height: 55px;
+    border: none;
+    margin-bottom: 1.5rem;
+}

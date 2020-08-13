@@ -1,0 +1,96 @@
+#login-page{
+    padding: 70px;
+}
+
+#login-page #text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    color: var(--text-color);
+}
+
+#login-page .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#login-page .header button{
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color-primary);
+    background: var(--bg-color);
+    border-radius: 8px;
+    border-color: var(--color-primary);
+    padding: 11px 50px;
+    border-style: dotted;
+}
+
+#login-page .header .logo img{
+    height: 56px;
+}
+
+#login-page .header .logo #logo-icon{
+    width: 12%;
+}
+
+#login-page .body-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+#login-page .body-container .login{
+    display: grid;
+    align-items: center;
+    justify-content: flex-start
+}
+
+#login-page .body-container .login button{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: var(--color-primary);
+    border-radius: 8px;
+    border: none;
+    width: 370px;
+    height: 55px;
+}
+
+#login-page .body-container .login input{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 0.5rem 0;
+    width: 370px;
+    height: 55px;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+#login-page .body-container .login .checkbox input{
+    height: 16px;
+    width: 16px;
+    margin-bottom: 55px;
+}
+
+#login-page .body-container .login .checkbox span{
+    margin-left: 5px;
+}
+
+#login-page .body-container .illustration img{
+    width: 747px;
+    height: 573px;
+}
+
+#login-page .body-container span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--text-color);
+}

@@ -1,0 +1,96 @@
+#profile-page{
+    padding: 70px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#profile-page .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#profile-page .header .back-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-page .header .back-page span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+#profile-page .profile .avatar{
+    border: 6px solid var(--avatar-border);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#profile-page .profile .avatar img{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#profile-page .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+    background-image: url(/static/media/profile-page.854a9722.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 440px 370px;
+    background-clip: content-box;
+}
+
+#profile-page .profile .input-container{
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-page .profile .buttons button{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 8px;
+    border: none;
+    width: 175px;
+    height: 55px;
+}
+
+#profile-page .profile .buttons #button-1{
+    color: var(--color-primary);
+    background-color: var(--bg-color);
+    border-color: var(--color-primary);
+    border-style: dotted;
+    margin-right: 20px;
+}
+
+#profile-page .profile .buttons #button-2{
+    color: #ffffff;
+    background-color: var(--color-primary);
+}
+
+
+#profile-page .profile .input-container input{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 0.5rem 0;
+    width: 370px;
+    height: 55px;
+    border: none;
+    margin-bottom: 1.5rem;
+}
