@@ -1,5 +1,5 @@
 # Crush 4 Life
-    Crush 4 Life é um website de relacionamentos, onde o usuário encontrará diversas pessoas no seu feed afim de
+Crush 4 Life é um website de relacionamentos, onde o usuário encontrará diversas pessoas no seu feed afim de
 iniciar um relacionamento, possuindo todas suas características e qualidades para que encontre o seu par perfeito.
 
 ## Sobre o desenvolvimento
